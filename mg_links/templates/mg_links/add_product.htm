@@ -1,0 +1,16 @@
+<head>
+
+    <title>Magic Links DB</title>
+</head>
+<body>
+<h1>Chessies' Magic Links Database</h1>
+<a href="/search">Search DB</a>
+    <div>
+        <form action='' method='POST'>
+        {%csrf_token%}
+        {{form}}
+        <button type='submit'>Add Product</button>
+        </form>
+
+    </div>
+</body>
