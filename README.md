@@ -8,6 +8,4 @@ Django + PostgreSQL application to store lots of links for easy access and basic
 
 More improvements on this app to come. First time coding something in Python not from a tutorial. 
 
-Application is deployed to Heroku right now. Here is the live link to my first Python web app.  
-
-https://mldatabase.herokuapp.com/
+Application is deployed to Heroku right now and in use by the client. 
