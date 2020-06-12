@@ -2,7 +2,7 @@
 
 Initial repo was magic_links (27 commits) but i had to restructure in order to get the application deployed to Heroku. Took me about 2 days in the Django docs to create the project with full functionality and 2 days to get it deployed to Heroku. 
 
-All necessary packages are in the requirements.txt file in the root folder.
+All necessary packages are in the requirements.txt file in the root folder. Did not use a virtual enviroment. 
 
 Django + PostgreSQL application to store lots of links for easy access and basic filtering. 
 
