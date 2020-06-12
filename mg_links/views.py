@@ -18,7 +18,7 @@ def index(request):
             url = form.cleaned_data['link']
             new_item = Product.objects.create(product_name=name,key_word=key,link=url)
             new_item.save()
-            return HttpResponseRedirect('/added/')
+            return render(request,'mg_links/add_product.htm', {'form':AddProduct, 'message': 'successfully submitted'})
     else:
         form = AddProduct()
     return render(request,'mg_links/add_product.htm', {'form':AddProduct})
